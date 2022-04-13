@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <script src="https://use.fontawesome.com/72f3d00eee.js"></script>
+</head>
+
+<body>
+
+    <input type="checkbox" id="check">
+    <!--header area start-->
+    <header style="padding-top: 0px;">
+        <label for="check">
+        </label>
+        <div class="left_area">
+            <h3>Inventory Management</h3>
+        </div>
+        
+        
+        <div class="right_area">
+            <a href="/thankyou" class="logout_btn"> Logout</a>
+        </div>
+    </header>
+   
+    <!--sidebar start-->
+    <div class="sidebar" style="margin-top:60px;">
+        <div class="sidebaritem">
+        
+            <h2 style="color: black;">Welcome Admin</h2>
+            <a routerLink="" routerLinkActive="Active"> <span>Item</span></a>
+        <a routerLink="" routerLinkActive="Active"><span>Purchase</span></a>
+        <a routerLink="" routerLinkActive="Active"> <span>Vendor</span></a>
+        <a routerLink="" routerLinkActive="Active"> <span>Sale</span></a>
+        <a routerLink="" routerLinkActive="Active"> <span>Customer</span></a>
+        <a routerLink="" routerLinkActive="Active"> <span>Search</span></a>
+        <a routerLink="" routerLinkActive="Active"> <span>Report</span></a>
+
+        
+        </div>
+    </div>
+    <div class="wrapper">
+        <h3>Item Details</h3>
+        <form action="">
+          <p>
+
+            <p class="input-file-wrapper">
+                <label for="upload"> Item</label>
+                <input type="file" name="" id="upload">
+              </p>
+
+
+              <p>
+                  <label for="">Item No</label>
+                  <input type="text"></p>
+                  <p>
+                  <label for="">Product id</label>
+                  <input type="text">
+              </p>
+
+              <p>
+                <label for="">Item Name</label>
+                <input type="text">
+            </p>
+<p>
+            
+                <td>Status </td>
+                <td> <select name="Status">
+                <option value="Active">Active
+                <option value="Inactive">Inactive
+                
+                </select>
+                </td>
+               
+                </p>
+<p>
+            <label for="">Description</label>
+            <input type="text">
+          
+          <p>
+            <label for="">Discount %</label>
+            <input type="text">
+          </p>
+          <p>
+            <label for="">Quantity</label>
+            <input type="text">
+          </p>
+          <p>
+            <label for="">Unit Price</label>
+            <input type="text">
+          </p>
+          <p>
+            <label for="">Total Price</label>
+            <input type="text">
+          </p>
+    
